@@ -3,13 +3,13 @@
 This repository contains the code and resources for building a Stack Overflow tag predictor using machine learning techniques. The goal of this project is to predict relevant tags for Stack Overflow questions based on their content.
 
 ## Table of contents
-   -About the Project
-   -Dataset
-   -Preprocessing
-   -Vectorization
-   -Performance & Web scrapping
-   -Visualization
-   -Usage
+   - About the Project
+   - Dataset
+   - Preprocessing
+   - Vectorization
+   - Performance & Web scrapping
+   - Visualization
+   - Usage
 
 ## About the Project
 Stack Overflow is a popular platform for developers to ask and answer technical questions. However, tagging questions with relevant keywords is crucial for efficient searching and categorization. This project aims to automate the process of tagging Stack Overflow questions using machine learning. Currently the attempt is made to predict the top 5 tags from the dataset.
@@ -25,12 +25,15 @@ The training dataset used in this project was obtained from Kaggle and consists 
 Two vectorization methods are used in this project:
 
    1. TF-IDF (Term Frequency-Inverse Document Frequency):
+      
+      Models: Logistic Regression, Naive Bayes, Support Vector Machine (SVM), Artificial Neural Network (ANN)
+
+   2. Word2Vec:
    
       Models: Logistic Regression, Naive Bayes, Support Vector Machine (SVM), Artificial Neural Network (ANN)
+      
    
-   2.Word2Vec:
-   
-      Models: SVM, Recurrent Neural Network (RNN), Logistic Regression
+
 
 ## Performance
 
@@ -52,7 +55,7 @@ To further evaluate the model's performance, a new test dataset was created by w
 4. Predict tags for new Stack Overflow questions using the trained model.
 
 ## Acknowledgments
--Thanks to the sklearn library for the models.
--Kaggle for the dataset of questions and tags.
--Stack Overflow for permitting data scraping to access its invaluable question dataset.
+- Thanks to the sklearn library for the models.
+- Kaggle for the dataset of questions and tags.
+- Stack Overflow for permitting data scraping to access its invaluable question dataset.
 

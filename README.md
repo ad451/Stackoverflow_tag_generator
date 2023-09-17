@@ -3,13 +3,13 @@
 This repository contains the code and resources for building a Stack Overflow tag predictor using machine learning techniques. The goal of this project is to predict relevant tags for Stack Overflow questions based on their content.
 
 ## Table of contents
--About the Project
--Dataset
--Preprocessing
--Vectorization
--Performance & Web scrapping
--Visualization
--Usage
+   -About the Project
+   -Dataset
+   -Preprocessing
+   -Vectorization
+   -Performance & Web scrapping
+   -Visualization
+   -Usage
 
 ## About the Project
 Stack Overflow is a popular platform for developers to ask and answer technical questions. However, tagging questions with relevant keywords is crucial for efficient searching and categorization. This project aims to automate the process of tagging Stack Overflow questions using machine learning. Currently the attempt is made to predict the top 5 tags from the dataset.
@@ -24,13 +24,13 @@ The training dataset used in this project was obtained from Kaggle and consists 
 ## Vectorization & Model Selection
 Two vectorization methods are used in this project:
 
-1. TF-IDF (Term Frequency-Inverse Document Frequency):
-
-   Models: Logistic Regression, Naive Bayes, Support Vector Machine (SVM), Artificial Neural Network (ANN)
-
-2.Word2Vec:
-
-   Models: SVM, Recurrent Neural Network (RNN), Logistic Regression
+   1. TF-IDF (Term Frequency-Inverse Document Frequency):
+   
+      Models: Logistic Regression, Naive Bayes, Support Vector Machine (SVM), Artificial Neural Network (ANN)
+   
+   2.Word2Vec:
+   
+      Models: SVM, Recurrent Neural Network (RNN), Logistic Regression
 
 ## Performance
 
@@ -42,10 +42,10 @@ To further evaluate the model's performance, a new test dataset was created by w
 [![Whats-App-Image-2023-07-16-at-20-20-19.jpg](https://i.postimg.cc/fTkFsW4J/Whats-App-Image-2023-07-16-at-20-20-19.jpg)](https://postimg.cc/6yJzLXpX)
 ## Usage
 1. Clone the repository:
-'''bash
-git clone https://github.com/YourUsername/StackOverflow-Tag-Predictor.git
+   ```bash
+   git clone https://github.com/YourUsername/StackOverflow-Tag-Predictor.git
 
-2. Get the dataset. [(Link)]()
+2. Get the dataset. [(Link)](https://www.kaggle.com/datasets/stackoverflow/stacksample)
 
 3. Run the model training and evaluation scripts.
 

@@ -30,7 +30,7 @@ Two vectorization methods are used in this project:
 
    2. Word2Vec:
    
-      Models: Logistic Regression, Naive Bayes, Support Vector Machine (SVM), Artificial Neural Network (ANN)
+      Models: Logistic Regression, Support Vector Machine (SVM), Recurrent Neural Network (RNN)
       
    
 
